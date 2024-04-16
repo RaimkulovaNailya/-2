@@ -52,3 +52,10 @@ a{
 .item{
     display: block;
 }
+.item:hover{
+    text-decoration: underline;
+}
+.office:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
