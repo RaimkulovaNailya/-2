@@ -74,9 +74,26 @@ h1{
 .yellowLorry{
     width: 450px;
     height: 270px;
-    margin: 55px;
+    margin-top: 55px;
 }
 .second-sect-wrapper{
     display: flex;
     justify-content: space-around;
+}
+.secondPart{
+    display: flex;
+    justify-content: space-around;
+}
+.next{
+    width: 150px;
+    height: 40px;
+}
+.back{
+    width: 150px;
+    height: 40px;
+    margin-top: 240px;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
 }
