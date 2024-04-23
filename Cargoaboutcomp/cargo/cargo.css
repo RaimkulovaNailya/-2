@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+h1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    letter-spacing: 2px;
+}
+.mini-text{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    line-height: 30px;
+}
+.first-sect{
+    height: 620px;
+    background-image: url(../images/Lorry.png) ;
+    background-color: #2f343ac3;
+} 
+.border{
+    border: solid 2px #C8A35F;
+    width: 900px;
+    text-align: center;
+    height: 245px;
+    padding-top: 40px;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 170px;
+}
+.second-sect{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, rgb(57, 63, 71) 36.3%, rgb(47, 52, 58) 36.3%, rgb(47, 52, 58) 63.7%, rgb(57, 63, 71) 63.7%, rgb(57, 63, 71));
+    padding-top: 100px;
+}
+.line2{
+    width: 90px;
+    height: 6px;
+    background: #C8A35F;
+}
+.h1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 40px;
+    width:300px;
+    margin-top: 40px;
+}
+.mini-text2{
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 400px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.but1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 220px;
+    height: 55px;
+    background-color: #C8A35F;
+    margin-top: 40px;
+}
+.yellowLorry{
+    width: 450px;
+    height: 270px;
+    margin-top: 55px;
+}
+.second-sect-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.secondPart{
+    display: flex;
+    justify-content: space-around;
+}
+.next{
+    width: 150px;
+    height: 40px;
+}
+.back{
+    width: 150px;
+    height: 40px;
+    margin-top: 240px;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+}
+.aviatran{
+    margin-top: 100px;
+}
+.aviatranGrids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+.grid{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 280px;height: 180px;
+    text-align: center;
+    background-color: #393F47;
+    margin: auto 0.5px 1px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.imgGrids{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aviatransitions{
+    height: 600px;
+}
+.mini-text3{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 450px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.aboutCompany{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(90deg,rgba(47, 52, 58, 1) 36.3%, rgba(57, 63, 71, 1)36.3%, rgba(57, 63, 71, 1)63.7%, rgba(47, 52, 58, 1)63.7%,rgba(47, 52, 58, 1));
+}
+.grids2{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 160px;
+    margin-left: 75px;
+    margin-top: 90px;
+}
+.grid2{
+    width: 200px;height: 160px;
+    background-color: white;
+    color: #2F343A;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    border: solid 0.25px #C8A35F;
+}
+.redLorry{
+    width: 200px;height: 160px;
+}
+.numberGrids{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 30px;
+}
+.gridsText{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.gridsText2{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.contentSect4{
+    margin-top: 80px;
+}
