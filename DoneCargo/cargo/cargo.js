@@ -16,3 +16,27 @@ function changeLng(){
 }
 lngRus.addEventListener("click", changeLng)
 lngEng.addEventListener("click", changeLng)
+
+let car1 = document.getElementById("CAR1")
+let nextButton = document.getElementById("nextButton")
+let prevButton = document.getElementById("prevButton")
+
+let carNumber = 1
+
+function nextCar(){
+    if(carNumber === 4) return
+    carNumber++
+    car1.src = `../images/CAR${carNumber}.png`
+}
+
+function prevCar(){
+    if(carNumber === 1) return
+    carNumber--
+    car1.src = `../images/CAR${carNumber}.png`
+}
+
+
+nextButton.addEventListener('click', nextCar)
+prevButton.addEventListener('click', prevCar)
+
+

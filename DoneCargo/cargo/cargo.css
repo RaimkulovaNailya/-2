@@ -18,7 +18,7 @@ h1{
 }
 .first-sect{
     height: 620px;
-    background-image: url(../images/Lorry.png) ;
+    background-image: url(../images/whiteLorry.png) ;
     background-color: #2f343ac3;
 } 
 .border{
@@ -75,6 +75,8 @@ h1{
     width: 450px;
     height: 270px;
     margin-top: 55px;
+    object-fit: cover;
+
 }
 .second-sect-wrapper{
     display: flex;
