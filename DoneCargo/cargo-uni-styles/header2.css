@@ -36,11 +36,14 @@ a{
     border-left: solid 1px white;
     width: 30px;
 }
-.office{
+#office{
     margin-top: 10px;
     margin-left: 10px;
     padding-top: 5px;
     letter-spacing: 1px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 .items{
     letter-spacing: 1px;
@@ -55,7 +58,7 @@ a{
 .item:hover{
     text-decoration: underline;
 }
-.office:hover{
+#office:hover{
     text-decoration: underline;
     text-decoration-color: white;
 }
