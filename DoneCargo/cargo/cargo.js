@@ -34,13 +34,14 @@ let gridsText2 = document.getElementById("gridsText2")
 let gridsText3 = document.getElementById("gridsText3")
 let gridsText4 = document.getElementById("gridsText4")
 let gridsText5 = document.getElementById("gridsText5")
-// let address = document.getElementById("address")
-// let developed = document.textContent("developed")
+let number1 = document.getElementById("number1")
+let address = document.getElementById("address2")
+let developed = document.getElementById("developed")
 let lng = 'rus'
 
 
-function changeLng(){
-    
+function changeLng(event){
+    event.preventDefault()
     if(lng === 'eng'){
         title.textContent = "ГРУЗОВЫЕ ПЕРЕВОЗКИ"
         office.textContent = "Наши офисы"
@@ -76,8 +77,8 @@ function changeLng(){
         gridsText3.textContent = "грузовиков"
         gridsText4.textContent = "сотрудников"
         gridsText5.textContent = "профессионалов"
-        // address.textContent = "123456, Санкт-Петербург, Невский пр-кт 127"
-        // developed.textContent = "Разработано - D-E-N.ru"
+        address.textContent = "123456, Санкт-Петербург, Невский пр-кт 127"
+        developed.textContent = "Разработано - D-E-N.ru"
         lng = "rus"
     }else{
         title.textContent = "CARGO TRANSPORATIONS"
@@ -114,8 +115,8 @@ function changeLng(){
         gridsText3.textContent = "trucks"
         gridsText4.textContent = "employees"
         gridsText5.textContent = "professionals"
-        // address.textContent = "123456, St. Petersburg, Nevsky Prospekt 127"
-        // developed.textContent = "Developed by D-E-N.ru"
+        address.textContent = "123456, St. Petersburg, Nevsky Prospekt 127"
+        developed.textContent = "Developed by D-E-N.ru"
         lng = "eng"
     }
 }
@@ -146,4 +147,15 @@ function prevCar(){
 nextButton.addEventListener('click', nextCar)
 prevButton.addEventListener('click', prevCar)
 
-
+services.addEventListener("click", function(event){
+    event.preventDefault()
+    h1Services.scrollIntoView({block: "center", inline:"nearest", behavior: "smooth"})
+})
+aboutCompany.addEventListener("click", function(event){
+    event.preventDefault()
+    h1AboutCompany.scrollIntoView({block: "center", inline:"nearest", behavior: "smooth"})
+})
+contacts.addEventListener("click", function(event){
+    event.preventDefault()
+    number1.scrollIntoView({block: "center", inline:"nearest", behavior: "smooth"})
+})
