@@ -9,8 +9,15 @@ body{
 .errorText1, .errorText2, .goBack{
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    
     font-weight: 300;
+    
+}
+.fdf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 28px;
 }
 .goBack{
     width: 300px;
@@ -18,17 +25,40 @@ body{
     background-color: #C8A35F;
     border: 0;
     font-size: 26px;
-    margin-left: 470px;
-    margin-top: 28px;
     display: block;
     text-align: center;
     padding-top: 15px;
+    margin: 0 auto;
+
 }
 .errorText1{
-    margin-left: 520px;
-    margin-top: 20px;
+    margin-top: 20px;font-size: 30px;
+
 }
 .errorText2{
-    margin-left: 470px;
-    margin-top: 20px;
+    margin-top: 20px;font-size: 30px;
+}
+
+@media (max-width: 426px){
+    .goBack{
+        width: 250px;
+        font-size: 18px;
+        height: 40px;
+        
+    }
+    .errorText1, .errorText2{
+        font-size: 24px;
+    }
+}
+@media (min-width: 2400px){
+    .errorText1, .errorText2{
+        font-size: 60px;
+    }
+    .goBack{
+        font-size: 50px;
+        width: 650px;
+        height: 120px;
+        margin-top: 60px;
+        padding-top: 50px;
+    }
 }
