@@ -4,11 +4,7 @@
     display: flex;
     justify-content: space-between;
 }
-.container{
-    width: 1150px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
+
 .header1{
     background-color: #C8A35F;
     width: 100%;
@@ -19,20 +15,34 @@
     padding: 15px;
 }
 .lngs{
-    display: flex;
+    display: flex;;
 }
 .lng{
     margin-right: 12px;
 }
 
-@media(max-width: 340px){
+@media(max-width: 1140px){
+    .aviatranGrids{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aboutCompany{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .forth-sect{
+        height: 100%;
+    }
+}
+@media(max-width: 321px){
     .header1{
-        width: 320px;
+        width: 100%;
         height: 105px;
     }
     .header1Row{
         flex-direction: column;
-        width: 260px;
+        width: 290px;
     }
     .lngs{
         justify-content: space-between;
@@ -40,6 +50,55 @@
     }
     .number{
         text-align: center;
+        margin-bottom: 15px;
+
+    }
+    .mail{
+        text-align: center;
+    }
+}
+@media (min-width: 375px) and (max-width: 425px){
+    .header1{
+        max-width: 100%;
+        height: 110px;
+    }
+    .header1Row{
+        flex-direction: column;
+        width: 355px;
+        margin-bottom: 15px;
+        padding-right: 20px;
+    }
+    .lngs{
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .number{
+        text-align: center;
+        margin-bottom: 15px;
+        margin-bottom: 15px;
+    }
+    .mail{
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px){
+    .header1{
+        max-width: 100%;
+        height: 110px;
+    }
+    .header1Row{
+        flex-direction: column;
+        max-width: 33%;
+        margin-bottom: 15px;
+    }
+    .lngs{
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .number{
+        text-align: center;
+        margin-bottom: 15px;
         margin-bottom: 15px;
 
     }

@@ -34,10 +34,15 @@ img{vertical-align: top;}
 
 h1,h2,h3,h3,h4,h5,h5,h6{font-size: inherit;font-weight: 400;}
 
-.container {
-    max-width: 1064px;
+/* .container {
+    max-width: 1150px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0 auto;
+} */
+.container{
+    max-width: 1150px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 body{

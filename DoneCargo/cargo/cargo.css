@@ -113,7 +113,8 @@ h1{
 .grid{
     color: rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
-    width: 280px;height: 180px;
+    width: 280px;
+    height: 180px;
     text-align: center;
     background-color: #393F47;
     margin: auto 0.5px 1px;
@@ -210,5 +211,8 @@ h1{
     justify-content: space-around;
     padding: 20px;
 }
-
+.background-img{
+    background-image: url("../images/maps.png");
+    height: 450px;
+}
 
