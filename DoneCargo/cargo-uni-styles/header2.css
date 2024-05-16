@@ -61,3 +61,22 @@ a{
     text-decoration: underline;
     text-decoration-color: white;
 }
+@media(max-width: 990px){
+    .header2Row{
+        flex-wrap: wrap;
+    }
+    .header2{
+        height: 200px;
+    }
+    #office{
+        text-align: center;
+    }
+    .items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
