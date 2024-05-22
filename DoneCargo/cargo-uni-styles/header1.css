@@ -21,20 +21,7 @@
     margin-right: 12px;
 }
 
-@media(max-width: 1140px){
-    .aviatranGrids{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .aboutCompany{
-        flex-wrap: wrap;
-        justify-content: center;
-        
-    }
-    .forth-sect{
-        height: 100%;
-    }
-}
+
 @media(max-width: 400px){
     .header1Row{
         flex-direction: column;

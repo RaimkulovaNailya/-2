@@ -61,9 +61,38 @@ a{
     text-decoration: underline;
     text-decoration-color: white;
 }
+
+@media(max-width: 340px){
+    .header2{
+        height: 220px;
+        background-color: #2F343A;
+        margin-bottom: 20px;
+    }
+    .line{
+        display: none;
+    }
+    .first-part{
+        flex-wrap: wrap;
+    }
+    .location{
+        display: none;
+    }
+    .logo{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .office{
+        margin: 0 auto;
+    }
+}
 @media(max-width: 990px){
     .header2Row{
         flex-wrap: wrap;
+        
+    }
+    .first-part{
+        width: 100%;
+        justify-content: center;
     }
     .header2{
         height: 200px;
@@ -74,6 +103,7 @@ a{
     .items{
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .item{
         margin-top: 8px;
