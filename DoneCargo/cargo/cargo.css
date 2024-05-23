@@ -322,14 +322,24 @@ h1{
     .numberGrids{
         font-size: 50px;
     }
-    .grid2{
-        width: 140px;
-    }
     .grids2{
         place-content: center;
     }
     .mini-text3{
         width: 200px;
+    }
+    .secondPart{
+        flex-wrap: wrap
+    }
+    .back{
+        margin: 0;
+    }
+    #h1{
+        margin: 40px auto;
+        
+    }
+    .firstPart{
+        margin: 0 0 0 0;
     }
 }
 @media (max-width: 480px){
@@ -344,13 +354,13 @@ h1{
 }
 @media(max-width: 430px){
     .grids2{
-        grid-template-columns: 180px 180px;
+        grid-template-columns: 150px 150px;
     }
     .grid2{
-        width: 180px;
+        width: 150px;
     }
     .redCar{
-        width: 180px;
+        width: 150px;
     }
 }
 @media(max-width: 1140px){
@@ -370,4 +380,19 @@ h1{
 @media (max-width: 340px){
     .aviatransitions{
         height: 1500px;
-}}
+    }
+    #h1{
+        font-size: 21px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .mini-text2{
+        font-size: 16px;
+        width: 300px;
+    }
+}
+@media(min-width:631px){
+    .forth-sect{
+        height: 900px;
+    }
+}
